@@ -3,7 +3,7 @@ author: Rabin Lamichhane
 pubDatetime: 2023-01-30T15:57:52.737Z
 layout: ../../layouts/BlogPost.astro
 title: Coding Chronicles
-slug: astro-paper-2
+slug: coding-chronicles
 description: Kathmandu University
 featured: false
 publishDate: 2024-02-27T12:05:00.508Z
