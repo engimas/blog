@@ -24,4 +24,4 @@ collections:
       - {label: "OG Image", name: "ogImage", widget: "image", required: false} # Optional: OG image for social media sharing
       - {label: "Canonical URL", name: "canonicalURL", widget: "string", required: false} # Optional: Canonical URL for the post
       - {label: "Author", name: "author", widget: "string",required: false} # Optional: Author of the post
-      - {label: "Modification Date", name: "modDatetime", widget: "datetime",,required: false}
+      - {label: "Modification Date", name: "modDatetime", widget: "datetime",required: false}
