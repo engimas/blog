@@ -1,7 +1,11 @@
 ---
+author: Rabin Lamichhane
+pubDatetime: 2023-01-30T15:57:52.737Z
 layout: ../../layouts/BlogPost.astro
 title: Coding Chronicles
+slug: astro-paper-2
 description: Kathmandu University
+featured: false
 publishDate: 2024-02-27T12:05:00.508Z
 heroImage: https://assets-cdn.kathmandupost.com/uploads/source/news/2020/miscellaneous/MAIN%20photo%20Kathmandu%20University%20(5).JPG
 ---

@@ -17,12 +17,11 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "../../layouts/BlogPost.astro"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "string"}
-      - {label: "Publish Date", name: "publishDate", widget: "datetime"}
-      - {label: "Hero Image", name: "heroImage", widget: "image"}
+      - {label: "Publish Date", name: "publishDate", widget: "datetime", required: false}
+      - {label: "Hero Image", name: "heroImage", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Slug", name: "slug", widget: "string"} # Optional: Slug for the post
-      - {label: "Featured", name: "featured", widget: "boolean"} # Optional: Display post in featured section
-      - {label: "Draft", name: "draft", widget: "boolean"} # Optional: Mark post as unpublished
-      - {label: "Tags", name: "tags", widget: "list"} # Optional: Related keywords for the post
-      - {label: "OG Image", name: "ogImage", widget: "image"} # Optional: OG image for social media sharing
-      - {label: "Canonical URL", name: "canonicalURL", widget: "string"} # Optional: Canonical URL for the post
+      - {label: "Slug", name: "slug", widget: "string", required: false} # Optional: Slug for the post
+      - {label: "Featured", name: "featured", widget: "boolean", required: false} # Optional: Display post in featured section
+      - {label: "Tags", name: "tags", widget: "list", required: false} # Optional: Related keywords for the post
+      - {label: "OG Image", name: "ogImage", widget: "image", required: false} # Optional: OG image for social media sharing
+      - {label: "Canonical URL", name: "canonicalURL", widget: "string", required: false} # Optional: Canonical URL for the post
