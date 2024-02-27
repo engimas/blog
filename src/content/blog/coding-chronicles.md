@@ -1,7 +1,6 @@
 ---
 author: Rabin Lamichhane
 pubDatetime: 2023-01-30T15:57:52.737Z
-layout: ../../layouts/BlogPost.astro
 title: Coding Chronicles
 slug: coding-chronicles
 description: Kathmandu University
