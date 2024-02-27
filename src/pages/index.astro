@@ -21,6 +21,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 
 <Layout>
   <Header />
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <main id="main-content">
     <section id="hero">
       <h1>Mingalaba</h1>
@@ -120,7 +121,23 @@ const socialCount = SOCIALS.filter(social => social.active).length;
       </LinkButton>
     </div>
   </main>
+  <script>
+			declare global {
+				interface Window {
+					netlifyIdentity: any;
+				}
+			}
 
+			if (window.netlifyIdentity) {
+			  window.netlifyIdentity.on("init", ((user: any) => {
+				if (!user) {
+				  window.netlifyIdentity.on("login", () => {
+					document.location.href = "/admin/";
+				  });
+				}
+			  }));
+			}
+		  </script>
   <Footer />
 </Layout>
 
