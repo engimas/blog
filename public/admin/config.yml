@@ -20,3 +20,9 @@ collections:
       - {label: "Publish Date", name: "publishDate", widget: "datetime"}
       - {label: "Hero Image", name: "heroImage", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Slug", name: "slug", widget: "string"} # Optional: Slug for the post
+      - {label: "Featured", name: "featured", widget: "boolean"} # Optional: Display post in featured section
+      - {label: "Draft", name: "draft", widget: "boolean"} # Optional: Mark post as unpublished
+      - {label: "Tags", name: "tags", widget: "list"} # Optional: Related keywords for the post
+      - {label: "OG Image", name: "ogImage", widget: "image"} # Optional: OG image for social media sharing
+      - {label: "Canonical URL", name: "canonicalURL", widget: "string"} # Optional: Canonical URL for the post
