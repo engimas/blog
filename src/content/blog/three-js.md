@@ -1,12 +1,13 @@
 ---
 title: Three.js
 description: What is Three.js ?
-publishDate: 2024-02-27T12:33:09.687Z
+pubDatetime: 2024-02-27T12:33:09.687Z
 featured: true
 tags:
   - javascript
 author: Rabin Lamichhane
 ---
+
 <!--StartFragment-->
 
 Three.js is a popular open-source JavaScript library used for creating and displaying 3D computer graphics in a web browser. It provides a wide range of features and functionality for creating 3D scenes, such as rendering, lighting, texturing, animation, and interaction.
@@ -19,14 +20,14 @@ Three.js can be used in a variety of applications, including games, interactive 
 
 Simple Setup
 
-*main.ts*
+_main.ts_
 
 ```
 
 ```
 
-* Scene is a tree like structure which contains almost every type of object in 3d scene.
-* Camera is used to view the scene. It is not necessary to build 3d model, only to view the scene.
+- Scene is a tree like structure which contains almost every type of object in 3d scene.
+- Camera is used to view the scene. It is not necessary to build 3d model, only to view the scene.
 
 ## PerspectiveCamera( fov : Number, aspect : Number, near : Number, far : Number )
 
@@ -40,14 +41,14 @@ Simple Setup
 >
 > **far plane**: This is the distance from the camera to the farthest objects that can be seen in the scene. Any objects farther than this distance will be clipped and not rendered. Setting the far plane too far can result in a loss of precision and performance issues, while setting it too close can cause distant objects to disappear prematurely.
 
-*const camera = new THREE.PerspectiveCamera( 45, width / height, 1, 1000 ); scene.add( camera );*
+_const camera = new THREE.PerspectiveCamera( 45, width / height, 1, 1000 ); scene.add( camera );_
 
 ![](https://miro.medium.com/v2/resize:fit:700/0*ZJzwzQgE861heAH7.png)
 
-* There is a `Renderer`. This is arguably the main object of three.js. You pass a `Scene` and a `Camera` to a `Renderer` and it renders (draws) the portion of the 3D scene that is inside the *frustum* of the camera as a 2D image to a canvas. There is some simple setup going on for renderer , which is nearly always same in every code.
-* And *animate()* function is used for running *loop()* function before repaint occurs. Other than loop function in animate function are can be kept same. We will see loop() and setup() in counter.ts
+- There is a `Renderer`. This is arguably the main object of three.js. You pass a `Scene` and a `Camera` to a `Renderer` and it renders (draws) the portion of the 3D scene that is inside the *frustum* of the camera as a 2D image to a canvas. There is some simple setup going on for renderer , which is nearly always same in every code.
+- And *animate()* function is used for running *loop()* function before repaint occurs. Other than loop function in animate function are can be kept same. We will see loop() and setup() in counter.ts
 
-*Counter.ts*
+_Counter.ts_
 
 ```
 
