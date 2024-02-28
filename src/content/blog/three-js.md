@@ -22,8 +22,44 @@ Simple Setup
 
 _main.ts_
 
-```
+```typescript
+import "./style.css";
 
+import { OrbitControls } from "three/addons/controls/OrbitControls.js";
+// optional, import only if you want orbit control
+
+import * as THREE from "three";
+import { loop, setup } from "./counter";
+
+export const scene = new THREE.Scene();
+export const camera = new THREE.PerspectiveCamera(
+  75,
+  window.innerWidth / window.innerHeight,
+  0.1,
+  1000
+);
+
+export const renderer = new THREE.WebGLRenderer({
+  canvas: document.querySelector("#canvas") as HTMLCanvasElement,
+});
+
+export const controls = new OrbitControls(camera, renderer.domElement);
+// optional, use this code only if you want orbit control
+
+renderer.setPixelRatio(window.devicePixelRatio);
+renderer.setSize(window.innerWidth, window.innerHeight);
+
+setup();
+animate();
+
+function animate() {
+  window.requestAnimationFrame(animate);
+  controls.update();
+  // optional, use this code only if you want orbit control
+
+  loop();
+  renderer.render(scene, camera);
+}
 ```
 
 - Scene is a tree like structure which contains almost every type of object in 3d scene.
@@ -50,8 +86,30 @@ _const camera = new THREE.PerspectiveCamera( 45, width / height, 1, 1000 ); scen
 
 _Counter.ts_
 
-```
+```typescript
+import { AmbientLight, BoxGeometry, Mesh, MeshStandardMaterial } from "three";
+import { camera, scene } from "./main";
 
+let box: Mesh;
+
+export function setup() {
+  let boxGeo = new BoxGeometry(1, 1, 1);
+  let mat = new MeshStandardMaterial({
+    color: 0xffff,
+  });
+
+  let light = new AmbientLight("#ffffff", 0.5);
+  scene.add(light);
+
+  box = new Mesh(boxGeo, mat);
+  scene.add(box);
+  camera.position.set(3, 5, 5);
+}
+
+export function loop() {
+  box.rotation.x += 0.01;
+  box.rotation.y += 0.01;
+}
 ```
 
 ![](https://miro.medium.com/v2/resize:fit:500/1*9gcFfsMgYy6Omlncp9JJWg.png)
