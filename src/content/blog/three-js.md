@@ -22,7 +22,7 @@ Simple Setup
 
 *main.ts*
 
-```
+```javascript
 import "./style.css";
 
 import { OrbitControls } from "three/addons/controls/OrbitControls.js";
@@ -86,7 +86,7 @@ function animate() {
 
 *Counter.ts*
 
-```
+```javascript
 import { AmbientLight, BoxGeometry, Mesh, MeshStandardMaterial } from "three";
 import { camera, scene } from "./main";
 
