@@ -7,8 +7,6 @@ description: Chocolatey is an open-source package manager for Windows. It builds
 pubDatetime: 2024-03-07T14:03:22.651Z
 modDatetime: 2024-03-07T13:44:02.131Z
 ---
-
-
 <!--StartFragment-->
 
 It is kind of time-consuming to install a program. You need to search for the program you want, download, and then manually install the software. During this process, some unwanted packages will be bundled.
@@ -24,6 +22,8 @@ By automating package management, Chocolatey makes it easier to manage complex W
 To install and set up Chocolatey on Windows, follow these steps:
 
 ### **1﻿. Open CMD as Admin :**
+
+![open cmd as admin](../../assets/screenshot-2024-03-07-191244.png "CMD as Admin")
 
 ### **2﻿.** **Install Chocolatey**:
 
