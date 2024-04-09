@@ -35,7 +35,7 @@ Run the following command in the command prompt:
 
 ### **3﻿. Verify Installation:**
 
-![](../../screenshot-2024-03-07-193948.png)
+![](../../assets/ascreenshot-2024-03-07-193948.png)
 
 ### **4﻿. Usage:**
 
