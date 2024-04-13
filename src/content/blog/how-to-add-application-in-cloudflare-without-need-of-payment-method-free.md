@@ -26,7 +26,7 @@ Whenever you try to add new application without payment method, Cloudflare doesn
 
 ![include /add at the end of URL](../../assets/screenshot-2024-04-11-194610.png "Bypass Cloudflare plan page in application")
 
-N﻿ow you can add application as per you requirement.
+Now, you can add application as per you requirement.
 
 ![new application page after successfully bypassed Cloudflare choose plan page](../../assets/screenshot-2024-04-11-194721.png "Add new application page")
 
