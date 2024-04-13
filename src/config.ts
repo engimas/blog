@@ -3,8 +3,8 @@ import type { Site, SocialObjects } from "./types";
 export const SITE: Site = {
   website: "https://pem.com.np/", // replace this with your deployed domain
   author: "Enigma",
-  desc: "A minimal and responssive tech blog",
-  title: "Engima",
+  desc: "Explore the latest in tech trends, tips, and insights on our blog. From AI to cybersecurity, our experts cover it all. Stay updated with our regular articles and tutorials!",
+  title: "Enigma",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
