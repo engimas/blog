@@ -7,9 +7,9 @@ slug: get-free-domain-from-mlh
 author: Anuj Paudel
 modDatetime: 2024-04-17T16:45:11.215Z
 ---
-Major League Hacking (MLH) is the official place for student hackathons. Every year, they organize over 300 weekend-long invention contests. These events are all about inspiring new ideas, bringing people together, and teaching computer skills to more than half a million developers worldwide. MLH is like a big family of enthusiastic creators who are the future leaders in tech and business.
+MLH stands for Major League Hacking, which is a global organization that empowers hackers (tech enthusiasts and innovators) through community events, education, and resources to explore, learn, and create using technology.
 
-M﻿LH in partnership with pork bun provides free domains for all the hackers out there during [MLH events](https://mlh.io/events)
+M﻿LH in partnership with [porkbun](www.porkbun.com) provides free domains for all the hackers out there during [MLH events](https://mlh.io/events)
 
 You can get various TLD through MLH coupons, like **.co, .biz, .courses, .study, .us, .wiki, .design, .club, .compare and .select.**
 
