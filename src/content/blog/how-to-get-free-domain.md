@@ -15,26 +15,24 @@ You can get various TLD through MLH coupons, like **.co, .biz, .courses, .study,
 
 You can follow the following steps to get free domain :
 
-### 1﻿. Claim your free promo code.
+## 1﻿. Claim your free promo code.
 
 Visit <https://ghw.mlh.io/challenges> and scroll down to today's challenges. There you can find promo code to claim free domain.
 
 ![challenges of MLH event's from where we can claim out free coupon](../../assets/screenshot-2024-04-17-103418.png "MLH's coupon code for free doma")
 
-### 2. Check domain availability
+## 2. Check domain availability
 
 Availability of domain can be checked from <https://www.tech.study/>
 
 ![list showing available domains that we can claim for free in tech.study](../../assets/screenshot-2024-04-17-103912.png "domain availability check in tech.study")
 
-### 3. Checkout Domain.
+## 3. Checkout Domain.
 
 In order to get your desired domain from that list, visit [www.porkbun.com](www.porkbun.com) and create an account.
 Search for that exact domain, and checkout by applying coupon that we got from MLH.
 
 ![checkout page for domain after applying cupon](../../assets/screenshot-2024-04-17-104746.png "checkout page of domain ")
-
-
 
 Enjoy your free domain !!
 
