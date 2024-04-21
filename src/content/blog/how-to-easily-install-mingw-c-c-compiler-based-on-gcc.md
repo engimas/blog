@@ -18,7 +18,7 @@ We will be using chocolatey for our installation process :
 
 Follow the steps mentioned here to install chocolatey in windows :
 
-*[`https://pem.com.np/posts/install-chocolatey-in-windows/`](https://pem.com.np/posts/install-chocolatey-in-windows/)``*
+*[`https://pem.com.np/posts/install-chocolatey-in-windows/`](https://pem.com.np/posts/install-chocolatey-in-windows/)*
 
 ## 2﻿. Install MinGW
 
@@ -28,6 +28,6 @@ T﻿o install MinGW, just use the command :
 
 `choco install mingw -A`
 
-I﻿f you face any problems, fell free to reach us out in discord : *[`https://discord.gg/Cqu5h9Qqhy`](https://discord.gg/Cqu5h9Qqhy)``*
+I﻿f you face any problems, fell free to reach us out in discord : *[`https://discord.gg/Cqu5h9Qqhy`](https://discord.gg/Cqu5h9Qqhy)*
 
 <!--EndFragment-->
