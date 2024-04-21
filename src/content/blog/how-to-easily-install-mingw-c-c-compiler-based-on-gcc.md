@@ -16,15 +16,15 @@ We will be using chocolatey for our installation process :
 
 ## 1﻿. Install Chocolatey
 
-F﻿ollow the steps mentioned here to install chocolatey in windows :
+Follow the steps mentioned here to install chocolatey in windows :
 
-``*[`https://pem.com.np/posts/install-chocolatey-in-windows/`](https://pem.com.np/posts/install-chocolatey-in-windows/)``*
+*[`https://pem.com.np/posts/install-chocolatey-in-windows/`](https://pem.com.np/posts/install-chocolatey-in-windows/)``*
 
 ## 2﻿. Install MinGW
 
-Make Sure to run CMD / PowerShell as administrator ( this is required for addition of MinGW path in environment variable, so that we can access it from any terminal without specifying full path of our compiler )
+Make Sure to run CMD / PowerShell as administrator ( this is required for addition of MinGW path in environment variable, so that we can access it from any terminal without specifying full path of our program )
 
-T﻿o install MinGW, just paste :
+T﻿o install MinGW, just use the command :
 
 `choco install mingw -A`
 
