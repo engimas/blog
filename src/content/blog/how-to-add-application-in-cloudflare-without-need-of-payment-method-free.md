@@ -12,6 +12,7 @@ tags:
 author: Anuj Paudel
 modDatetime: 2024-04-11T13:51:34.076Z
 ---
+
 <!--StartFragment-->
 
 Cloudflare Access allows you to secure your web applications by acting as an identity aggregator, or proxy. Users can only log in to the application if they meet the criteria you want to introduce.
@@ -29,5 +30,31 @@ Whenever you try to add new application without payment method, Cloudflare doesn
 Now, you can add application as per you requirement.
 
 ![new application page after successfully bypassed Cloudflare choose plan page](../../assets/screenshot-2024-04-11-194721.png "Add new application page")
+
+But, what if you accidently made some mistakes in application, or you want to modify setting. As you can't modify application directly without adding payment method, we need to make api call to cloudflare.
+
+**Get a list of the apps (because you need the app id):**
+
+```js
+curl -X GET "https://api.cloudflare.com/client/v4/accounts/<ACCOUNT-ID>/access/apps" \
+                                          -H "X-Auth-Email: <EMAIL>" \
+                                          -H "X-Auth-Key:<API-KEY>" \
+                                          -H "Content-Type: application/json"
+```
+
+**Then delete the app policy:**
+
+```js
+curl -X DELETE "https://api.cloudflare.com/client/v4/accounts/<ACCOUNT-ID>/access/apps/<APP-ID>" \
+                                          -H "X-Auth-Email: <EMAIL>" \
+                                          -H "X-Auth-Key:<API-KEY>" \
+                                          -H "Content-Type: application/json"
+```
+
+**`X-Auth-Key`**: To create an API token, from the Cloudflare dashboard, go to My Profile > API Tokens and select Create Token.
+
+**`X-Auth-Email`**: Enter email registered with your cloudflare account
+
+**`<ACCOUNT-ID>`**: Account Id is present in URL after you login into cloudflare dashboard
 
 <!--EndFragment-->

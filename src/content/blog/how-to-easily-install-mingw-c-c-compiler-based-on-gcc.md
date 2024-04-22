@@ -17,7 +17,7 @@ We will be using chocolatey for our installation process :
 
 ## 1. Install Chocolatey
 
-Follow the steps mentioned here to install chocolatey in windows :
+If you don't have chocolatey installed in your device, follow the steps mentioned here to install chocolatey in windows :
 
 _[`https://pem.com.np/posts/install-chocolatey-in-windows/`](https://pem.com.np/posts/install-chocolatey-in-windows/)_
 
@@ -27,7 +27,9 @@ Make Sure to run CMD / PowerShell as administrator ( this is required for additi
 
 To install MinGW, just use the command :
 
-`choco install mingw -A`
+```cmd
+choco install mingw -A
+```
 
 If you face any problems, fell free to reach us out in discord : _[`https://discord.gg/Cqu5h9Qqhy`](https://discord.gg/Cqu5h9Qqhy)_
 
