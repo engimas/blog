@@ -17,13 +17,13 @@ You can follow the following steps to get free domain :
 
 ## 1﻿. Claim your free promo code.
 
-Visit <https://ghw.mlh.io/challenges> and scroll down to today's challenges. There you can find promo code to claim free domain.
+Visit [`https://ghw.mlh.io/challenges`](https://ghw.mlh.io/challenges) and scroll down to today's challenges. There you can find promo code to claim free domain.
 
 ![challenges of MLH event's from where we can claim out free coupon](../../assets/screenshot-2024-04-17-103418.png "MLH's coupon code for free doma")
 
 ## 2. Check domain availability
 
-Availability of domain can be checked from <https://www.tech.study/>
+Availability of domain can be checked from [`https://www.tech.study/`](https://www.tech.study/)``
 
 Enter name you that you want for your website, and it will show all available domains with that name. Note down full domain name and proceed to next step. 
 
@@ -31,7 +31,7 @@ Enter name you that you want for your website, and it will show all available do
 
 ## 3. Checkout Domain.
 
-In order to get your desired domain from that list, visit [www.porkbun.com](www.porkbun.com) and create an account.
+In order to get your desired domain from that list, visit [`www.porkbun.com`](www.porkbun.com) and create an account.
 Search for that exact domain, and checkout by applying coupon that we got from MLH.
 
 ![checkout page for domain after applying cupon](../../assets/screenshot-2024-04-17-104746.png "checkout page of domain ")
