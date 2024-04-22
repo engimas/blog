@@ -20,11 +20,11 @@ To skip these steps, try Chocolatey. It's a command-line package manager for Win
 
 To install and set up Chocolatey on Windows, follow these steps:
 
-### **1﻿. Open CMD as Admin :**
+### **1. Open CMD as Admin :**
 
 ![open cmd as admin](../../assets/screenshot-2024-03-07-191244.png "CMD as Admin")
 
-### **2﻿.** **Install Chocolatey**:
+### **2.** **Install Chocolatey**:
 
 Run the following command in the command prompt:
 
@@ -32,17 +32,17 @@ Run the following command in the command prompt:
 @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 ```
 
-### **3﻿. Verify Installation:**
+### **3. Verify Installation:**
 
 ![verify installation of chocolatey ](../../assets/screenshot-2024-03-07-193948.png "verify installation of chocolatey ")
 
-### **4﻿. Usage:**
+### **4. Usage:**
 
-L﻿et's install GoogleChrome using Chocolatey.
+Let's install GoogleChrome using Chocolatey.
 
 ![choco install googlechrome ( install google chrome using chocolatey )](../../assets/screenshot-2024-03-07-194151.png "install google chrome using chocolatey ")
 
-I﻿f you are unsure about package name, you can check that in
+If you are unsure about package name, you can check that in
 
 ```
 https://community.chocolatey.org/packages
