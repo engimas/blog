@@ -1,6 +1,6 @@
 ---
-title: Three.js
-description: What is Three.js ?
+title: Wanna make awesome 3d in web ? Use Three.js
+description: "Three.js is a popular open-source JavaScript library used for creating and displaying 3D computer graphics in a web browser. It provides a wide range of features and functionality for creating 3D scenes, such as rendering, lighting, texturing, animation, and interaction."
 pubDatetime: 2024-02-27T12:33:09.687Z
 featured: true
 author: Rabin Lamichhane
