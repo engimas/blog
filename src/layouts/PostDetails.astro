@@ -67,6 +67,7 @@ const layoutProps = {
   </div>
   <main id="main-content">
     <h1 transition:name={slugifyStr(title)} class="post-title">{title}</h1>
+    {author && <p class="text-skin-base opacity-60">By {author}</p>}
     <Datetime
       pubDatetime={pubDatetime}
       modDatetime={modDatetime}

@@ -3,9 +3,9 @@ title: Three.js
 description: What is Three.js ?
 pubDatetime: 2024-02-27T12:33:09.687Z
 featured: true
+author: Rabin Lamichhane
 tags:
   - javascript
-author: Rabin Lamichhane
 modDatetime: 2024-03-02T06:58:06.676Z
 ---
 
