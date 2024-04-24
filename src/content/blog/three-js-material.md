@@ -1,10 +1,15 @@
 ---
-title: Three.js Material
-description: "Three.js is a popular open-source JavaScript library used for creating and displaying 3D computer graphics in a web browser. It provides a wide range of features and functionality for creating 3D scenes, such as rendering, lighting, texturing, animation, and interaction."
+title: How to make awesome materials in Three.js
+description: Three.js Material is a powerful feature that allows you to define the appearance of 3D objects in your scene. With various types of materials available, such as LineBasicMaterial and LineDashedMaterial, you can control the color, shading, and other visual properties of your objects. This markdown file provides examples and explanations of how to use different materials in Three.js to create stunning visual effects in your 3D scenes.
 pubDatetime: 2024-02-27T12:33:09.687Z
 featured: true
 tags:
   - javascript
+  - three.js
+  - 3d
+  - web-development
+  - materials
+  - typescript
 author: Rabin Lamichhane
 ---
 

@@ -1,10 +1,15 @@
 ---
-title: Memory management in web development
+title: Best to optimize memory usage in JavaScript
 description: "Memory management is a critical aspect of web development that can significantly impact the performance and user experience of web applications. In this blog post, we’ll take a closer look at memory management in web development and explore some strategies for optimizing memory usage in JavaScript."
 pubDatetime: 2024-02-27T12:33:09.687Z
 featured: true
 tags:
   - javascript
+  - typescript
+  - web-development
+  - memory-management
+  - optimization
+  - performance
 author: Rabin Lamichhane
 ---
 
