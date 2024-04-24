@@ -12,7 +12,7 @@ author: Rabin Lamichhane
 
 If you haven’t seen my previous Threejs blog post. I recommend reading that to get a better understanding on the topic.
 [**Three.js**
-*Three.js is a popular open-source JavaScript library used for creating and displaying 3D computer graphics in a web…*medium.com](https://medium.com/@allwcons/three-js-e209a9dee086)
+*Three.js is a popular open-source JavaScript library used for creating and displaying 3D computer graphics in a web…*medium.com](https://pem.com.np/posts/three-js/)
 
 Let’s start with basic material first.
 
@@ -255,8 +255,7 @@ A standard physically based material, using Metallic-Roughness workflow.
 Physically based rendering (PBR) has recently become the standard in many 3D applications, such as [Unity](https://blogs.unity3d.com/2014/10/29/physically-based-shading-in-unity-5-a-primer/), [Unreal](https://docs.unrealengine.com/latest/INT/Engine/Rendering/Materials/PhysicallyBased/) and [3D Studio Max](http://area.autodesk.com/blogs/the-3ds-max-blog/what039s-new-for-rendering-in-3ds-max-2017).
 
 > Now these are very usefull and advanced material so you should be very practical
-> [**Three.js Material Browser**
-> *Edit description*threejs.org](https://threejs.org/docs/scenes/material-browser.html#MeshStandardMaterial)
+> [**Three.js Material Browser** > *Edit description*threejs.org](https://threejs.org/docs/scenes/material-browser.html#MeshStandardMaterial)
 
 ## MeshToonMaterial
 
@@ -265,8 +264,7 @@ A material implementing toon shading.
 Use this interactive tool for better understanding
 
 > Now these are very usefull and advanced material so you should be very practical
-> [**Three.js Material Browser**
-> *Edit description*threejs.org](https://threejs.org/docs/scenes/material-browser.html#MeshToonMaterial)
+> [**Three.js Material Browser** > *Edit description*threejs.org](https://threejs.org/docs/scenes/material-browser.html#MeshToonMaterial)
 
 ![](https://cdn-images-1.medium.com/max/2000/1*jrnxjm_vf2e8gE2frx81qA.png)
 
