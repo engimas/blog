@@ -1,0 +1,40 @@
+---
+import { type CollectionEntry } from "astro:content";
+import Layout from "@layouts/Layout.astro";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+import { SITE } from "@config";
+import { getCollection } from "astro:content";
+import MemberCard from "@components/memberCard";
+import Main from "@layouts/Main.astro";
+
+export interface Props {
+  membersCollection: CollectionEntry<"members">[];
+}
+
+const { membersCollection } = Astro.props;
+
+const members = await getCollection("members");
+---
+
+<Layout title={`Members | ${SITE.title}`}>
+  <Header activeNav="members" />
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"
+  ></script>
+  <Main pageTitle="Members" pageDesc="All the core members of Enigma.">
+    <section id="hero">
+      <ul class="flex flex-col gap-5">
+        {
+          //[{"id":"atul.md","slug":"atul","body":"","collection":"members","data":{"name":"Atul Tiwari","role":["Software Engineer"],"bio":"hello"}},{"id":"rabin.md","slug":"rabin","body":"","collection":"members","data":{"name":"Rabin Lamichhane","role":["Software Engineer"],"bio":"hello"}}]
+          members.map(member => (
+            <MemberCard
+              frontmatter={member.data}
+              href={`/members/${member.slug}/`}
+            />
+          ))
+        }
+      </ul>
+    </section>
+  </Main>
+  <Footer />
+</Layout>

@@ -1,0 +1,92 @@
+---
+import { type CollectionEntry } from "astro:content";
+import Layout from "@layouts/Layout.astro";
+import Header from "@components/Header.astro";
+import Footer from "@components/Footer.astro";
+import { SITE } from "@config";
+import { getCollection } from "astro:content";
+import Breadcrumbs from "@components/Breadcrumbs.astro";
+
+import MaleAvatar from "/public/assets/avatars/male.svg";
+import FemaleAvatar from "/public/assets/avatars/female.svg";
+import Hr from "@components/Hr.astro";
+
+export interface Props {
+  member: CollectionEntry<"members">;
+}
+
+export async function getStaticPaths() {
+  const members = await getCollection("members");
+
+  const postResult = members.map(member => ({
+    params: { slug: member.slug },
+    props: { member },
+  }));
+
+  return [...postResult];
+}
+
+const { slug } = Astro.params;
+const { member } = Astro.props;
+const { bio, gender, name, role, image } = member.data;
+
+const { Content } = await member.render();
+---
+
+<Layout title={`Members | ${SITE.title}`}>
+  <Header activeNav="members" />
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"
+  ></script>
+
+  <Breadcrumbs />
+  <main id="main-content">
+    <div class="user_header flex gap-5 mt-5">
+      <div class="avatar">
+        {
+          image ? (
+            <img src={image} alt={name} class="w-20 rounded-full" />
+          ) : (
+            <img
+              src={gender == "male" ? MaleAvatar.src : FemaleAvatar.src}
+              alt={name}
+              class="w-20 rounded-full"
+            />
+          )
+        }
+      </div>
+      <div class="text">
+        <h1>{name}</h1>
+        <p>Core Member of Engima</p>
+        {role.map(role => <span class="badge">{role}</span>)}
+      </div>
+    </div>
+    <section id="hero" class="mt-5">
+      <Hr />
+      <article id="article" role="article" class="prose mx-auto mt-8 max-w-3xl">
+        <Content />
+      </article>
+    </section>
+  </main>
+  <Footer />
+</Layout>
+
+<style>
+  #main-content {
+    @apply mx-auto w-full max-w-3xl px-4 pb-4;
+  }
+  #main-content h1 {
+    @apply text-2xl font-semibold sm:text-3xl;
+  }
+  #main-content p {
+    @apply mt-2 italic;
+  }
+  .user_header {
+    @apply flex flex-col sm:flex-row items-center;
+  }
+  .avatar {
+    @apply flex-shrink-0;
+  }
+  .badge {
+    @apply bg-gray-200 text-gray-800 px-2 py-1 rounded-full text-xs mr-2;
+  }
+</style>
