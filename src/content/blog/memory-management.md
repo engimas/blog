@@ -4,12 +4,9 @@ description: "Memory management is a critical aspect of web development that can
 pubDatetime: 2024-02-27T12:33:09.687Z
 featured: true
 tags:
-  - javascript
-  - typescript
   - web-development
-  - memory-management
-  - optimization
-  - performance
+  - javascript
+
 author: Rabin Lamichhane
 ---
 

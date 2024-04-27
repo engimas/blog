@@ -9,7 +9,7 @@ tags:
   - three.js
   - 3d
   - web-development
-  - typescript
+
 modDatetime: 2024-03-02T06:58:06.676Z
 ---
 

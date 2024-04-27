@@ -8,8 +8,7 @@ tags:
   - three.js
   - 3d
   - web-development
-  - materials
-  - typescript
+
 author: Rabin Lamichhane
 ---
 

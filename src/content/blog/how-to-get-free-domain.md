@@ -4,6 +4,8 @@ description: Claim your free .co .us .biz .study .courses .club and many more
   through MLH challenges for free.
 pubDatetime: 2024-04-17T16:45:11.205Z
 slug: get-free-domain-from-mlh
+tags:
+  - tutorial
 author: Anuj Paudel
 modDatetime: 2024-04-17T16:45:11.215Z
 ---

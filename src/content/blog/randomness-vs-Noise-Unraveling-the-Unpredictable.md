@@ -6,10 +6,7 @@ featured: true
 author: Rabin Lamichhane
 tags:
   - game-development
-  - noise
-  - randomness
-  - terrain-generation
-  - procedural-generation
+
 modDatetime: 2024-04-24T12:25:33.211Z
 ---
 
