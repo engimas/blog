@@ -1,5 +1,5 @@
 ---
-title: How to reorder/rearrange certificates in LinkedIn ?
+title: How to reorder certificates in LinkedIn ?
 description: LinkedIn doesn't provide way to reorder certificates, but we can
   change detail of certificate to order them as per our wish.
 pubDatetime: 2024-04-21T12:25:33.200Z

@@ -1,5 +1,5 @@
 ---
-title: How to add application in Cloudflare, without need of Payment Method ? FREE !!
+title: How to add and edit application in Cloudflare, without need of Payment Method ? No credit card required!
 description: Are you tired of Cloudflare asking for payment method while
   configuring new application ? Don't worry, there is simple method to bypass
   it.
