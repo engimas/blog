@@ -1,5 +1,5 @@
 ---
-title: How to get free domain ??
+title: "Completely Free Domains: No Hosting Purchase Required !! Step-by-Step Guide"
 description: Claim your free .co .us .biz .study .courses .club and many more
   through MLH challenges for free.
 pubDatetime: 2024-04-17T16:45:11.205Z
@@ -7,8 +7,7 @@ slug: get-free-domain-from-mlh
 author: Anuj Paudel
 modDatetime: 2024-04-17T16:45:11.215Z
 ---
-
-MLH stands for Major League Hacking, which is a global organization that empowers hackers (tech enthusiasts and innovators) through community events, education, and resources to explore, learn, and create using technology.
+Claim your free .co .us .biz .study .courses .club and many more through MLH challenges for free. MLH stands for Major League Hacking, which is a global organization that empowers hackers (tech enthusiasts and innovators) through community events, education, and resources to explore, learn, and create using technology.
 
 MLH in partnership with [porkbun](www.porkbun.com) and [GoDaddy Registry](https://www.tech.study/) provides free domains for all the hackers out there during [MLH events](https://mlh.io/events)
 
@@ -16,7 +15,7 @@ You can get various TLD (Top-Level Domain) through MLH coupons, like (**.co, .bi
 
 You can follow the following steps to get free domain :
 
-## 1. Claim your free promo code.
+## 1. Claim your free porkbun coupon code
 
 Visit [`https://ghw.mlh.io/challenges`](https://ghw.mlh.io/challenges) and scroll down to today's challenges. There you can find promo code to claim free domain.
 
