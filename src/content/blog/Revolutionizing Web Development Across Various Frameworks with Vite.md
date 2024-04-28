@@ -170,3 +170,5 @@ As your project evolves, you may explore additional configuration options within
 - **_Explore the Source Code:_** Dive into the generated source code in your chosen framework and start building your application with the benefits of Vite’s speed and efficiency.
 
 By following these steps, you’ll swiftly set up Vite for React, Vue.js, or Svelte, providing you with a foundation to leverage Vite’s powerful features within the context of your preferred web development framework.
+
+If you have any queries, feel free to contact us on [`https://discord.gg/RDU62RrFe3`](https://discord.gg/RDU62RrFe3)

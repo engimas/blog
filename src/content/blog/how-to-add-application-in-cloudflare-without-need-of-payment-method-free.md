@@ -57,4 +57,6 @@ curl -X DELETE "https://api.cloudflare.com/client/v4/accounts/<ACCOUNT-ID>/acces
 
 **`<ACCOUNT-ID>`**: Account Id is present in URL after you login into cloudflare dashboard
 
+If you have any queries, feel free to contact us on [`https://discord.gg/RDU62RrFe3`](https://discord.gg/RDU62RrFe3)
+
 <!--EndFragment-->

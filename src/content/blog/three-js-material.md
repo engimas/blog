@@ -279,3 +279,5 @@ MeshDepthMaterial is a type of material that is used to render the depth of a me
 Use this interactive tool for better understanding
 [**Three.js Material Browser**
 *Edit description*threejs.org](https://threejs.org/docs/scenes/material-browser.html#MeshDepthMaterial)
+
+If you have any queries, feel free to contact us on [`https://discord.gg/RDU62RrFe3`](https://discord.gg/RDU62RrFe3)

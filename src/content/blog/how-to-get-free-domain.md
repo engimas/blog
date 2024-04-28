@@ -41,6 +41,8 @@ Search for the exact domain, and proceed to checkout, applying the coupon we obt
 
 Enjoy your free domain !!
 
+If you have any queries, feel free to contact us on [`https://discord.gg/RDU62RrFe3`](https://discord.gg/RDU62RrFe3)
+
 ## FAQ
 
 **1. Porkbun Error : We are unable to apply coupon. Perhaps it's already been applied ?**  

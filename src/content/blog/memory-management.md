@@ -241,4 +241,6 @@ In conclusion, managing memory is an important aspect of web development, as it 
 [**WeakSet - JavaScript | MDN**
 *Functions that call themselves recursively need a way of guarding against circular data structures by tracking which…*developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet)
 
+If you have any queries, feel free to contact us on [`https://discord.gg/RDU62RrFe3`](https://discord.gg/RDU62RrFe3)
+
 <!--EndFragment-->

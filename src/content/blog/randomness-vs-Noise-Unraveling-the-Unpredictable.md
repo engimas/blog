@@ -151,3 +151,5 @@ Ken Perlin’s original paper on Perlin noise, which introduced the concept and 
   *In common usage, randomness is the apparent or actual lack of definite pattern or predictability in information. A…*en.wikipedia.org](https://en.wikipedia.org/wiki/Randomness)
   [**Pseudorandom number generator - Wikipedia**
   *A pseudorandom number generator ( PRNG), also known as a deterministic random bit generator ( DRBG), is an algorithm…*en.wikipedia.org](https://en.wikipedia.org/wiki/Pseudorandom_number_generator)
+
+If you have any queries, feel free to contact us on [`https://discord.gg/RDU62RrFe3`](https://discord.gg/RDU62RrFe3)
