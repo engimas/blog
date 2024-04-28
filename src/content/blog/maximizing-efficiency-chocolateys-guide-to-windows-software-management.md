@@ -124,4 +124,6 @@ Prefered search method: `choco search --by-id-only --order-by-popularity --appro
 
 So why wait? Dive into the world of Chocolatey today and revolutionize the way you manage software on Windows. Say goodbye to manual installations and hello to a faster, more streamlined approach with Chocolatey. Your software management journey starts here!
 
+If you have any queries, feel free to contact us in [`https://discord.gg/RDU62RrFe3`](https://discord.gg/RDU62RrFe3)
+
 <!--EndFragment-->
