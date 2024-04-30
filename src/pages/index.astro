@@ -21,6 +21,20 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 
 <Layout>
   <Header />
+  <!-- Google tag (gtag.js) -->
+  <script
+    type="text/partytown"
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-YK40D4FR5S"></script>
+  <script type="text/partytown">
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-YK40D4FR5S");
+  </script>
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"
   ></script>
   <main id="main-content">
