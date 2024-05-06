@@ -39,10 +39,16 @@ function reflectPreference() {
     // Get the background color property
     const bgColor = computedStyles.backgroundColor;
 
+    let gisc = document.querySelector(".giscus");
     // Set the background color in <meta theme-color ... />
     document
       .querySelector("meta[name='theme-color']")
       ?.setAttribute("content", bgColor);
+    if (themeValue == "light") {
+      gisc.style.filter = "invert(1)";
+    } else {
+      gisc.style.filter = "invert(0)";
+    }
   }
 }
 
