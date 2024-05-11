@@ -4,6 +4,7 @@ dist/
 
 # dependencies
 node_modules/
+generateBlog
 #nothing
 # logs
 npm-debug.log*
