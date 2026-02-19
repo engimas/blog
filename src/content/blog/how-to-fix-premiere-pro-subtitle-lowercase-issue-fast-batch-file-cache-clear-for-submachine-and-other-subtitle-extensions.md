@@ -30,7 +30,7 @@ Manually deleting media cache every time is hectic. Instead, create a `.bat` fil
 ### Steps
 
 1. Open **Notepad**.  
-2. Paste your batch code that clears Premiere Pro and After Effects cache and launches Premiere Pro.  
+2. Paste your batch code that clears Premiere Pro and After Effects cache in notepad. ( Update username to the code )
 
    ```
    @echo off
@@ -69,15 +69,10 @@ Manually deleting media cache every time is hectic. Instead, create a `.bat` fil
    echo ✅ All Adobe Premiere Pro and After Effects cache files have been cleared.
    echo You can safely reopen your projects now.
    pause
-
    ```
-
-
-3. Save the file as `ClearCacheAndLaunchPremiere.bat`.  
+3. Save the file as `ClearCache.bat`.  
 4. Close Premiere Pro and After Effects before running the file.  
-5. Double-click the `.bat` file to clear cache and launch Premiere Pro.  
-
-> **Pro Tip:** Verify your Adobe installation paths and ensure all fonts used in subtitles are properly installed.
+5. Double-click the `.bat` file to clear cache and launch Premiere Pro each time before you render.
 
 - - -
 
